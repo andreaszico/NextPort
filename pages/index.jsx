@@ -52,8 +52,7 @@ export default function App({ data }) {
 }
 
 export async function getStaticProps(context) {
-  const res = await fetch(`http://localhost:3000/api/user/all`)
-  const data = await res.json();
+  const data = require('../data');
   return {
     props: {
       data

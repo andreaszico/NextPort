@@ -1,20 +1,20 @@
 import Image from 'next/image'
 import headerImage from '../../public/ZC.png'
-import { useEffect, useRef, useState } from 'react';
+import { useCallback, useEffect, useRef, useState } from 'react';
 import style from './Header.module.css';
 
 function Header({ gsap }) {
     const [nav, setNav] = useState(false);
     const header = useRef();
 
+    const handleScroll = useCallback(event => {
+        header.current.classList.toggle(style.active, window.scrollY > 0);
+    }, [])
+
     useEffect(() => {
-        window.addEventListener("scroll", function(){
-            header.current.classList.toggle(style.active, window.scrollY > 0);
-        })
+        window.addEventListener("scroll", handleScroll)
         return () => {
-            window.addEventListener("scroll", function(){
-                header.current.classList.toggle(style.active, window.scrollY > 0);
-            })
+            window.addEventListener("scroll", handleScroll)
         }
     }, [])
 

@@ -1,17 +1,14 @@
 import Image from 'next/image'
 import style from './About.module.css'
 import profile_img from '../../public/profile.jpeg';
-import { useEffect, useRef } from 'react';
+import { useRef } from 'react';
 
 function About() {
     const ref = useRef();
-    useEffect(() => {
-        
-    }, [])
     return (
         <div className={style.about} id='about' ref={ref}>
             <div className={style.box_image}>
-                <Image src={profile_img} className={style.image} width={100} height={100} />
+                <Image src={profile_img} className={style.image} width={100} height={100} alt="About Image"/>
             </div>
             <div className={style.about_desc}>
                 <p className={style.title_about}>About Me</p>
