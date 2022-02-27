@@ -20,7 +20,7 @@ function Works({ }) {
                         <div className={style.works_child + ' group'} >
                             <Image
                                 src={works_img}
-                                alt=""
+                                alt="Works Image"
                                 height={100}
                                 width={150}
                                 quality="85"
@@ -33,6 +33,7 @@ function Works({ }) {
                                         src={link_icon}
                                         width={17.5}
                                         height={17.5}
+                                        alt="skills"
                                     />
                                 </div>
                                 <p className={style.desc_title}>Desa Jangga Dolok</p>

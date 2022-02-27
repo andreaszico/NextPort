@@ -15,7 +15,7 @@ function Home({ name, developer, color }) {
     return (
         <div className={style.home} id='home' ref={ref}>
             <div className={style.bio}>
-                <p className={style.name}>I'm {name}</p>
+                <p className={style.name}>Im {name}</p>
                 <p className={style.dev}>{developer}</p>
                 <div className={style.social_media}>
                     <div className={style.icon}>
