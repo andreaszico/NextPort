@@ -11,10 +11,13 @@
 }
 
 .works_child{
-  @apply relative hover:before:bg-[#EBEBEB]/[.06] before:absolute before:w-full before:h-full backdrop-blur-lg cursor-pointer;
-  width: 250px;
+  @apply w-full relative hover:before:bg-[#EBEBEB]/[.06] before:absolute before:w-full before:h-full backdrop-blur-lg cursor-pointer;
   &:hover .link_icon{
     @apply opacity-100
+  }
+
+  @screen xs{
+    @apply w-[250px];
   }
 }
 
@@ -29,9 +32,16 @@
 
 
 .desc_title{
-  @apply text-sm font-medium mb-2
+  @apply text-base font-medium mb-2;
+
+  @screen xs{
+    @apply text-sm;
+  }
 }
 
 .desc_content{
-  @apply text-xs font-light
+  @apply text-sm font-light;
+  @screen xs{
+    @apply text-xs;
+  }
 }
