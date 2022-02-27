@@ -1,0 +1,30 @@
+.header{
+    @apply lg:px-16 p-2 fixed top-0 z-30 w-full lg:bg-transparent bg-zinc-800 transition-all duration-500;
+}
+
+.active{ 
+    @apply bg-slate-900;
+}
+
+.header_container{
+    @apply container mx-auto flex flex-wrap items-center lg:py-0 py-2 w-full px-5;
+}
+
+.box_image{
+    @apply flex-1 flex justify-between items-center;
+}
+
+.menu_toggle{
+    @apply cursor-pointer lg:hidden block;
+    & > svg{
+        @apply fill-current text-gray-900;
+    }
+}
+
+.button{
+    @apply hidden;
+}
+
+.nav_link{
+    @apply lg:p-4 py-4 px-0 block border-b-2 border-transparent cursor-pointer text-xs tracking-wide border-2;
+}

@@ -1,0 +1,27 @@
+.home {
+  @apply container mx-auto flex flex-col gap-5 h-screen items-start justify-center relative backdrop-blur-xl p-5;
+}
+
+.social_media {
+  @apply flex items-center gap-3;
+}
+
+.bio{
+  @apply w-full mx-auto flex flex-col gap-4;
+
+  @screen md{
+    @apply w-3/4;
+  }
+}
+
+.name {
+  @apply text-6xl font-bold leading-tight uppercase;
+}
+
+.dev {
+  @apply font-light;
+}
+
+.icon {
+  @apply cursor-pointer;
+}

@@ -1,0 +1,43 @@
+.about {
+  @apply mt-20;
+  background-color: #191919;
+}
+.title {
+  @apply text-2xl text-white;
+}
+
+.form_controls {
+  @apply my-7 w-full lg:w-1/2 flex flex-col justify-end items-end;
+}
+
+.about_container {
+  @apply container mx-auto w-full py-20;
+}
+
+.input {
+  @apply px-4 py-3 mt-2 text-xs rounded focus:outline-none focus:ring-1 focus:ring-purple-600 focus:border-transparent;
+  background: #373233;
+}
+
+.form_input {
+  @apply flex flex-col w-full mt-5;
+  & > * {
+    @apply text-white;
+  }
+
+  & > textarea {
+    @apply h-32;
+  }
+}
+
+.button {
+  @apply hover:bg-purple-600 p-2 w-24 mt-5 text-white text-xs rounded shadow-md;
+  background: #373233;
+}
+
+.contact {
+  @apply w-full lg:w-1/2 lg:p-10;
+  & > p {
+    @apply text-white text-sm mt-3;
+  }
+}

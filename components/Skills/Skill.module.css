@@ -1,0 +1,25 @@
+.skills{
+    @apply container mx-auto;
+}
+
+.title{
+    @apply text-center text-xl font-semibold
+}
+
+.skills_child{
+    @apply py-5 flex flex-wrap gap-5 justify-center items-center
+}
+
+.lang_skills{
+    @apply flex flex-col justify-center items-center w-40;
+    & > p {
+        @apply font-medium text-sm
+    }
+}
+
+.image{
+    @apply w-40 object-contain
+}
+
+
+

@@ -1,0 +1,23 @@
+.about{
+    @apply w-full h-full container mx-auto py-20 flex flex-col gap-5
+}
+
+.image{
+    @apply rounded-full
+}
+
+.contact{
+    @apply flex items-start gap-10 my-5
+}
+
+.title_about{
+    @apply text-2xl font-medium
+}
+
+.desc_about{
+    @apply text-sm mt-2 leading-6;
+}
+
+.button{
+    @apply bg-indigo-800 px-6 py-3 rounded-md text-sm text-white hover:bg-indigo-900
+}
