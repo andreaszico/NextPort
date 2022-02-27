@@ -15,7 +15,7 @@
 }
 
 .input {
-  @apply px-4 py-3 mt-2 text-xs rounded focus:outline-none focus:ring-1 focus:ring-purple-600 focus:border-transparent;
+  @apply px-4 py-3 mt-2 xs:text-xs text-sm rounded focus:outline-none focus:ring-1 focus:ring-purple-600 focus:border-transparent;
   background: #373233;
 }
 

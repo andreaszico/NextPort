@@ -32,22 +32,22 @@ function Contact() {
                 <div className='flex flex-wrap'>
                     <div className={style.form_controls}>
                         <div className={style.form_input}>
-                            <label htmlFor="text" className="label-input font-medium text-xs">Name</label>
+                            <label htmlFor="text" className="label-input font-medium text-sm xs:text-xs">Name</label>
                             <input type="text"
                                 className={style.input} name='name' ref={(e) => createInputRefs(e, 1)} />
                         </div>
                         <div className={style.form_input}>
-                            <label htmlFor="text" className="label-input font-medium text-xs">Email</label>
+                            <label htmlFor="text" className="label-input font-medium text-sm xs:text-xs">Email</label>
                             <input type="text"
                                 className={style.input} name='email' ref={(e) => createInputRefs(e, 2)} />
                         </div>
                         <div className={style.form_input}>
-                            <label htmlFor="text" className="label-input font-medium text-xs">Subject</label>
+                            <label htmlFor="text" className="label-input font-medium text-sm xs:text-xs">Subject</label>
                             <input type="text"
                                 className={style.input} name='subject' ref={(e) => createInputRefs(e, 3)} />
                         </div>
                         <div className={style.form_input}>
-                            <label htmlFor="text" className="label-input font-medium text-xs">Message</label>
+                            <label htmlFor="text" className="label-input font-medium text-sm xs:text-xs">Message</label>
                             <textarea type="text"
                                 className={style.input} name='message' ref={(e) => createInputRefs(e, 4)} />
                         </div>
