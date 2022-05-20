@@ -20,10 +20,7 @@ function Header({ gsap }) {
 
     const scrollTo = (direction) => {
         setNav(false)
-        var element = document.getElementById(direction);
-        gsap.to(window, { scrollTo: {
-            y: 1000
-        }, duration: 2 })
+        gsap.to(window, { scrollTo: `#${direction}`, duration: 2 })
     }
 
     return (

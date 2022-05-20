@@ -1,39 +1,69 @@
 module.exports = {
-    name: 'Zico Andreas Aritonang',
+    name: "I'm Zico Andreas Aritonang",
     developer: 'Full Stack Developer',
     social_media: {
-        github: '',
-        facebook: '',
-        instagram: '',
+        github: 'https://github.com/andreaszico',
+        facebook: 'https://www.facebook.com/zicoandreas.aritonang.9',
+        instagram: 'https://www.instagram.com/zicoandreasaritonang/',
     },
-    about: '',
+    about: `
+        Full stack developer with over three years experience. Using several programming languages such as javascript, 
+        php, MYSQL to build websites and using dart, java, kotlin in making mobile applications. 
+        Looking for a position to develop a Website or Android application with a company that 
+        values a strong educational background and work experience.
+        I like building new things like websites, mobile apps and now starting to learn to make 3D models.
+    `,
     contact_details: {
-        street: '',
-        city: '',
-        phone: '',
-        email: '',
+        street: 'Gotong Royong Street',
+        city: 'Parapat Indonesia, -',
+        phone: '+62 821 6792 2417',
+        email: 'zicoaritonang@gmail.com',
     },
     works: [{
-            title: "",
-            desctiption: "",
+            title: "Jangga Dolok Village Website",
+            desctiption: "Laravel & React JS",
             link: "",
             image: "",
         },
         {
-            title: "",
-            desctiption: "",
+            title: "BEM IT DEL",
+            desctiption: "Laravel",
             link: "",
             image: "",
         },
         {
-            title: "",
-            desctiption: "",
+            title: "Facebook Clone",
+            desctiption: "React JS",
             link: "",
             image: "",
         },
         {
-            title: "",
-            desctiption: "",
+            title: "Netflix Clone",
+            desctiption: "React JS",
+            link: "",
+            image: "",
+        },
+        {
+            title: "Spotify Clone",
+            desctiption: "React JS",
+            link: "",
+            image: "",
+        },
+        {
+            title: "Sports Web",
+            desctiption: "Next JS",
+            link: "",
+            image: "",
+        },
+        {
+            title: "My Craftsy",
+            desctiption: "Laravel",
+            link: "",
+            image: "",
+        },
+        {
+            title: "Shopify Website",
+            desctiption: "Next JS",
             link: "",
             image: "",
         },

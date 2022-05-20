@@ -2,14 +2,10 @@ import Image from 'next/image';
 import style from './Works.module.css'
 import works_img from '../../public/works.jpg'
 import link_icon from '../../public/link_icon.png'
-import { useEffect, useRef } from 'react';
+import { useRef } from 'react';
 
-function Works({ }) {
+function Works({ works }) {
     const ref = useRef();
-    const works = [1, 2, 3, 4, 5, 6, 7, 8]
-    useEffect(() => {
-
-    }, [])
 
     return (
         <div className={style.works_box} id='works' ref={ref}>
@@ -36,7 +32,7 @@ function Works({ }) {
                                         alt="skills"
                                     />
                                 </div>
-                                <p className={style.desc_title}>Desa Jangga Dolok</p>
+                                <p className={style.desc_title}>{el.title}</p>
                                 <p className={style.desc_content}>
                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
                                 </p>

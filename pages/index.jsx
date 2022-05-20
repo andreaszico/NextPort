@@ -42,8 +42,8 @@ export default function App({ data }) {
       </div>
       <Header gsap={gsap}/>
       <Home gsap={gsap} color={color}  name={data.name} developer={data.developer} social_media={data.social_media}/>
-      <About gsap={gsap} />
-      <Works gsap={gsap} />
+      <About gsap={gsap} about={data.about}/>
+      <Works gsap={gsap} works={data.works}/>
       <Skills data={data.skill}/>
       <Contact />
       <p className='text-center my-2 text-sm font-medium'>© Copyright 2017  Cuexx Developer</p>

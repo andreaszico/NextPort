@@ -5,7 +5,7 @@ import instagramIcon from '../../public/ant-design_instagram-filled.svg';
 import githubIcon from '../../public/akar-icons_github-fill.svg';
 import { useEffect, useRef } from 'react';
 
-function Home({ name, developer, color }) {
+function Home({ name, developer, social_media }) {
     const ref = useRef();
 
     useEffect(() => {
@@ -15,21 +15,21 @@ function Home({ name, developer, color }) {
     return (
         <div className={style.home} id='home' ref={ref}>
             <div className={style.bio}>
-                <p className={style.name}>Im {name}</p>
+                <p className={style.name}>{name}</p>
                 <p className={style.dev}>{developer}</p>
                 <div className={style.social_media}>
                     <div className={style.icon}>
-                        <a href="https://www.facebook.com/zicoandreas.aritonang.9">
+                        <a href={social_media.facebook}>
                             <Image src={facebookIcon} height={30} width={30} alt="facebook" />
                         </a>
                     </div>
                     <div className={style.icon}>
-                        <a href="https://www.instagram.com/zicoandreasaritonang/">
+                        <a href={social_media.instagram}>
                             <Image src={instagramIcon} height={35} width={35} alt="Instagram" />
                         </a>
                     </div>
                     <div className={style.icon}>
-                        <a href="https://github.com/andreaszico">
+                        <a href={social_media.github}>
                             <Image src={githubIcon} height={30} width={30} alt="Github" />
                         </a>
                     </div>
