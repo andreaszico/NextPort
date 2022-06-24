@@ -15,7 +15,7 @@ function Works({ works }) {
                     <a key={index}>
                         <div className={style.works_child + ' group'} >
                             <Image
-                                src={works_img}
+                                src={`https://storage.googleapis.com/portofolio-img/works/${el.image}`}
                                 alt="Works Image"
                                 height={100}
                                 width={150}
@@ -34,7 +34,7 @@ function Works({ works }) {
                                 </div>
                                 <p className={style.desc_title}>{el.title}</p>
                                 <p className={style.desc_content}>
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+                                   {el.description} 
                                 </p>
                             </div>
                         </div>
