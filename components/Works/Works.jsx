@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import style from './Works.module.css'
 import link_icon from '../../public/link_icon.png'
 import { useRef } from 'react';
@@ -11,7 +12,7 @@ function Works({ works }) {
             <p className={style.title}>CHECK OUT SOME OF MY WORKS.</p>
             <div className={style.works}>
                 {works.map((el, index) => (
-                    <a key={index}>
+                    <Link key={index} href={el.link} passHref >
                         <div className={style.works_child + ' group'} >
                             <Image
                                 src={`https://storage.googleapis.com/portofolio-img/works/${el.image}`}
@@ -37,7 +38,7 @@ function Works({ works }) {
                                 </p>
                             </div>
                         </div>
-                    </a>
+                    </Link>
                 ))}
             </div>
         </div>

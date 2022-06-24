@@ -20,17 +20,17 @@ function Home({ name, developer, social_media }) {
                 <div className={style.social_media}>
                     <div className={style.icon}>
                         <a href={social_media.facebook}>
-                            <Image src={facebookIcon} height={30} width={30} alt="facebook" />
+                            <Image src={"https://storage.googleapis.com/portofolio-img/works/brandico_facebook.svg"} height={30} width={30} alt="facebook" />
                         </a>
                     </div>
                     <div className={style.icon}>
                         <a href={social_media.instagram}>
-                            <Image src={instagramIcon} height={35} width={35} alt="Instagram" />
+                            <Image src={"https://storage.googleapis.com/portofolio-img/works/ant-design_instagram-filled.svg"} height={35} width={35} alt="Instagram" />
                         </a>
                     </div>
                     <div className={style.icon}>
                         <a href={social_media.github}>
-                            <Image src={githubIcon} height={30} width={30} alt="Github" />
+                            <Image src={"https://storage.googleapis.com/portofolio-img/works/akar-icons_github-fill.svg"} height={30} width={30} alt="Github" />
                         </a>
                     </div>
                 </div>

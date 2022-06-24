@@ -3,9 +3,10 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "lint": "next lint",
     "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "start": "next start -p 8080",
+    "deploy": "npm run build && gcloud app deploy"
   },
   "dependencies": {
     "animejs": "^3.2.1",
