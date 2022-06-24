@@ -1,6 +1,5 @@
 import Image from 'next/image';
 import style from './Works.module.css'
-import works_img from '../../public/works.jpg'
 import link_icon from '../../public/link_icon.png'
 import { useRef } from 'react';
 

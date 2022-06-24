@@ -1,6 +1,6 @@
 import style from './Skill.module.css';
 import Image from 'next/image';
-import { useEffect, useState } from 'react';
+import { useEffect } from 'react';
 
 function Skills({ data }) {
     // const [data, setData] = useState([1, 2,3,4,5,6]);

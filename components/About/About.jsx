@@ -1,6 +1,5 @@
 import Image from 'next/image'
 import style from './About.module.css'
-import profile_img from '../../public/profile.jpeg';
 import { useRef } from 'react';
 
 function About({ about }) {
