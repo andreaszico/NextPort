@@ -15,7 +15,7 @@ function Works({ works }) {
                     <Link key={index} href={el.link} passHref >
                         <div className={style.works_child + ' group'} >
                             <Image
-                                src={`https://storage.googleapis.com/portofolio-img/works/${el.image}`}
+                                src={`/works/${el.image}`}
                                 alt="Works Image"
                                 height={100}
                                 width={150}

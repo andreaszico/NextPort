@@ -7,7 +7,7 @@ function About({ about }) {
     return (
         <div className={style.about} id='about' ref={ref}>
             <div className={style.box_image}>
-                <Image src={'https://storage.googleapis.com/portofolio-img/works/profile.jpeg'} className={style.image} width={100} height={100} alt="About Image"/>
+                <Image src={'/profile.jpeg'} className={style.image} width={100} height={100} alt="About Image"/>
             </div>
             <div className={style.about_desc}>
                 <p className={style.title_about}>About Me</p>
@@ -24,7 +24,7 @@ function About({ about }) {
                             zicoaritonang@gmail.com</p>
                     </div>
                 </div>
-                <a className={style.button} href="https://storage.googleapis.com/portofolio-img/cv/ZicoAritonang_CV.pdf" download={'resume.pdf'}>Download Resume</a>
+                <a className={style.button} href="/cv/ZicoAritonang_CV.pdf" download={'resume.pdf'}>Download Resume</a>
             </div>
         </div>
     )

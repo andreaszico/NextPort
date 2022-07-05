@@ -23,13 +23,13 @@ module.exports = {
             title: "Jangga Dolok Village Website",
             description: "Jangga dolok village natural information website application built with Laravel and React JS",
             link: "https://janggadolok.site",
-            image: "janggadolok.jpeg",
+            image: "jangga.jpeg",
         },
         {
             title: "BEM IT DEL",
             description: "This IT Del Student Executive Board Information System is one of the assignments for the 2nd final project course, it is built with the PHP programming language and uses the laravel framework.",
             link: "https://bem-it-del.web.app/",
-            image: "BEM.png",
+            image: "bem.png",
         },
         {
             title: "Facebook Clone",
@@ -53,7 +53,7 @@ module.exports = {
             title: "Sports Web",
             description: "This is a Sports web application containing live streams, ecommerce equipment or sporting goods, live scores, monitoring dashboards and much more. This website is built with Next JS and is still under development.",
             link: "http://",
-            image: "sportsweb.jpeg",
+            image: "sports.jpeg",
         },
         {
             title: "My Craftsy",
